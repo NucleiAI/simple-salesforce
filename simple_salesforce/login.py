@@ -269,7 +269,8 @@ def soap_login(
                    .replace('http://', '')
                    .replace('https://', '')
                    .split('/')[0]
-                   .replace('-api', ''))
+                   #.replace('-api', '')
+                   )
 
     return session_id, sf_instance
 
